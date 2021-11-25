@@ -1,24 +1,9 @@
-# Multiagentes
+#Descripción del Reto
 
-Para este problema, deberás entregar, de manera individual, un informe en PDF que estudie las estadísticas de un robot de limpieza reactivo, así como el enlace al repositorio en Github del código desarrollado para esta actividad. El código debe ajustarse al estilo solicita en el siguiente documento.
+La movilidad urbana, se define como la habilidad de transportarse de un lugar a otro1 y es fundamental para el desarrollo económico y social y la calidad de vida de los habitantes de una ciudad. Desde hace un tiempo, asociar la movilidad con el uso del automóvil ha sido un signo distintivo de progreso. Sin embargo, esta asociación ya no es posible hoy. El crecimiento y uso indiscriminado del automóvil —que fomenta políticas públicas erróneamente asociadas con la movilidad sostenible—genera efectos negativos enormes en los niveles económico, ambiental y social en México.
 
-Dado:
+Durante las últimas décadas, ha existido una tendencia alarmante de un incremento en el uso de automóviles en México. Los Kilómetros-Auto Recorridos (VKT por sus siglas en Inglés) se han triplicado, de 106 millones en 1990, a 339 millones en 2010. Ésto se correlaciona simultáneamente con un incremento en los impactos negativos asociados a los autos, como el smog, accidentes, enfermedades y congestión vehicular2.
 
-Habitación de MxN espacios.
-Número de agentes.
-Porcentaje de celdas inicialmente sucias.
-Tiempo máximo de ejecución.
-Realiza la siguiente simulación:
+Para que México pueda estar entre las economías más grandes del mundo, es necesario mejorar la movilidad en sus ciudades, lo que es crítico para las actividades económicas y la calidad de vida de millones de personas.
 
-Inicializa las celdas sucias (ubicaciones aleatorias).
-Todos los agentes empiezan en la celda [1,1].
-En cada paso de tiempo:
-Si la celda está sucia, entonces aspira.
-Si la celda está limpia, el agente elije una dirección aleatoria para moverse (unas de las 8 celdas vecinas) y elije la acción de movimiento (si no puede moverse allí, permanecerá en la misma celda).
-Se ejecuta el tiempo máximo establecido.
-Deberás recopilar la siguiente información durante la ejecución:
-
-Tiempo necesario hasta que todas las celdas estén limpias (o se haya llegado al tiempo máximo).
-Porcentaje de celdas limpias después del termino de la simulación.
-Número de movimientos realizados por todos los agentes.
-Analiza cómo la cantidad de agentes impacta el tiempo dedicado, así como la cantidad de movimientos realizados. Desarrollar un informe con lo observado. Incluye el diagrama de tu máquina de estados del agente.
+Este reto te permitirá proponer una solución al problema de movilidad urbana en México, mediante un enfoque que reduzca la congestión vehicular al simular de manera gráfica el tráfico, representando la salida de un sistema multi agentes.
